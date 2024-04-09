@@ -1,0 +1,30 @@
+Aim :- Use Crypt Tool to encrypt and decrypt passwords using RCH alogrithm
+
+steps:-
+1) Download and install CryptTool
+2) Open CryptTool and replace the text.
+We will encrypt the following phrase;
+"My name is anonymous"
+We will use 00 00 00 as the encryption key.
+Open CryptTool.
+Replace the text with phrase given above itself.
+
+3) Encrypt the text.
+-Click on Encrypt/Decrypt menu.
+-Point to symmetric (modern)then select RC4
+
+4) select Encryption key
+-Select 24 bits as the encryption key.
+-Set the value to 00 0000.
+-Click on Encrypt button.
+-You will get the following stream Cipher.
+
+5) Start Analysis
+-Click on Analysis menu.
+-Point to symmetric Encryption (modern) then select RC4
+-Remeber the assumption made is the secret key is 24bits so make sure you select 24 bits as the key length.
+-Click on the start button.
+
+6) Analysis the results
+-When the analysis is complete you will the results.
+-Select the line that makes the most click on Accept selection button when done.

